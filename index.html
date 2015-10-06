@@ -1,0 +1,176 @@
+<!doctype html>
+<html ng-app="creativeBoost" class="no-js" lang="en">
+  
+<head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5 Minute Creativity Boost</title>
+    
+
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    
+    <script src="js/vendor/modernizr.js"></script>
+
+</head>
+  
+
+
+<!-- Initialize Angular Controller -->
+
+<body ng-controller="anagramCtrl">
+    
+<!--******************************* STATE 1: Intro + Outro Screens ********************************-->
+
+
+  <!-- LOGO -->
+
+  <div class="row">
+
+    <div class="intro" ng-show="!inProgress">
+        <div class="small-12 columns">
+            <!-- Logo BG image -->
+        </div>   
+    </div>
+
+  </div>
+
+  <!-- INTRO BOX -->
+    
+  <div class="row" ng-show="!inProgress" id="welcome">
+     <div class="small-12 columns">      
+          
+            <!-- INTRO Message -->
+            
+            <div ng-show="!quizOver">
+              <p class="text-center">An unconscious solution to your creative problem.</p>
+              <p class="text-center"><button id="startQuiz" ng-click="start()">LET'S GO!</button></p>
+            </div>
+
+            <!-- QUIZ OVER Message -->
+
+            <div ng-show="quizOver">  
+              <p class="text-center">You got {{score}} right, it doesn't really matter </p>
+              <p class="text-center">Start Brainstorming Solutions to your problem! </p>
+              <p class="text-center"><A HREF="javascript:history.go(0)">Play Again!</A></p>
+            </div>            
+            
+      </div> 
+  </div>    
+
+
+<!--******************************* STATE 2: Header + Timer + Score Box ********************************-->
+
+
+                    <!--HEADER BAR contains: logo, score, timer *** show: during quiz only -->
+
+
+  <div id="header" ng-show="inProgress">
+
+    <div class="row">
+      <div class="small-4 columns">
+            <image class="logo" src="img/logo_small_black.jpg"></image>
+      </div>
+
+      <!-- TIMER BOX -->
+      <div class="small-4 columns" id="timerbox">
+            <p class="text-center"> {{counter | formatTimer}} left </p>       
+      </div>
+
+      <!-- Score Box -->
+      <div class="small-4 columns" id="timerbox" >
+            <p class="text-center"> score: {{score}} </p>
+      </div>
+
+
+    </div>
+  </div>
+    
+
+<!--*********************************  QUESTIONS CONTAINER AND LOGIC ********************************  -->
+
+  <div class="row">
+
+    <div class="questions_container" ng-show="inProgress">
+        
+        <!-- Questions Container -->    
+        <div class="row" ng-show="inProgress">
+            <div class="small-12 small-centered medium-12 medium-centered columns">
+                  
+
+            <!--- Labels -->
+                            
+            <div class="row"> 
+              <div id="labels">
+
+                <div class="small-5 large-5 columns"> <h3>Input</h3>  </div>
+                <div class="small-5 large-5 columns"> <h3>Anagram</h3></div>
+                <div class="small-2 large-2 columns"> <h3>Hints</h3>  </div> 
+            
+              </div>
+            </div>
+
+        <!-- Anagrams -->
+
+        <div class="row">  
+ 
+            <!--load list via Angular -->
+
+              <ul>
+                <li ng-repeat="questions in anagrams track by $index">
+
+                  <div class="row">  
+
+                      <div class="small-4 columns"> 
+                      <!-- Controller Logic Connector -->
+                        <input 
+                          type="text" 
+                          id="answer" 
+                          ng-model="questions.guess" 
+                          ng-keyup="checkAnswer($index)" 
+                          ng-disabled="questions.match">
+                        </input>  
+                      </div> 
+
+                      <!-- Load Question from Array -->
+                      <div class="small-4 columns">  
+                          {{questions.mixed}} 
+                      </div>
+
+                      <!-- Load Hint from Array -->
+                      <div class="small-4 columns"> 
+                          <span class="hint">{{questions.hint}} </span>
+                      </div> 
+                  
+                  </div>
+                        
+
+                </li>
+              </ul>
+            </div>              
+        </div>
+      </div>
+    </div>  
+ 
+  </div>
+
+
+    <!-- Load Js -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>$(document).foundation();</script>
+    <!-- timer scripts 
+
+    <script src="bower_components/angular-timer/dist/assets/js/angular-timer-bower.js"></script>
+    <script type="text/javascript" src="angular-timer-master/dist/assets/js/angular-timer-all.min.js"></script>
+
+    <script src="bower_components/momentjs/min/moment.min.js"></script>
+    <script src="bower_components/momentjs/min/locales.min.js"></script> -->
+
+    
+  </body>
+</html>

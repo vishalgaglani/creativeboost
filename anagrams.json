@@ -1,0 +1,195 @@
+[
+		{
+			"guess": "",	
+			"solved": "cat",
+			"mixed": "tac",
+			"hint": "meow!", 
+			"match": false
+		},
+
+
+		{
+			"guess": "",	
+			"solved": "dog",
+			"mixed": "god",
+			"hint": "woof!", 
+			"match": false
+		},
+
+
+		{
+			"guess": "",	
+			"solved": "bear",
+			"mixed": "reab",
+			"hint": "teddy?", 
+			"match": false
+		},
+
+
+		{
+			"guess": "",	
+			"solved": "dragon",
+			"mixed": "rongad",
+			"hint": "khaleesi!", 
+			"match": false
+		},
+
+
+		{
+			"guess": "",	
+			"solved": "bird",
+			"mixed": "drib",
+			"hint": "tweet!", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "TRADITION",
+			"mixed": "eared bat",
+			"hint": "We do it every year!", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "COMPUTER",
+			"mixed": "cute romp",
+			"hint": "it used to be really big, now really small", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "SAUCER",
+			"mixed": "a curse",
+			"hint": "a cup of tea rests on this", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "Tom Cruise",
+			"mixed": "omit curse",
+			"hint": "actor", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "Jennifer Aniston",
+			"mixed": "IN FINE TORN JEANS",
+			"hint": "popular sitcom Actress", 
+			"match": false
+		},
+ 
+	
+
+		{
+			"guess": "",	
+			"solved": "trombone",
+			"mixed": "TENOR MOB",
+			"hint": "musical instrument", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "tomato",
+			"mixed": "A MOTTO",
+			"hint": "red & tasty", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "chocolate",
+			"mixed": "COOL CHEAT",
+			"hint": "a girls best friend", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "ALBERT EINSTEIN",
+			"mixed": "TEN ELITE BRAINS",
+			"hint": "a great scientist", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "organ",
+			"mixed": "GROAN",
+			"hint": "musical instrument", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "tennis",
+			"mixed": "IN NETS",
+			"hint": "its a raquet!", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "bowling",
+			"mixed": "NOW GLIB",
+			"hint": "stay in your lane", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "germany",
+			"mixed": "NEAR GYM",
+			"hint": "axis power", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "iceland",
+			"mixed": "NICE LAD",
+			"hint": "place filled with imaginary trolls", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "scotland",
+			"mixed": "COLD ANTS",
+			"hint": "a country", 
+			"match": false
+		},
+
+	
+
+		{
+			"guess": "",	
+			"solved": "ASTEROID",
+			"mixed": "RADIO SET ",
+			"hint": "the bad guy in the movie armageddon", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "universe",
+			"mixed": "VENUS IRE ",
+			"hint": "the galaxy is a part of this", 
+			"match": false
+		},
+
+		{
+			"guess": "",	
+			"solved": "SATELLITE",
+			"mixed": "LATEST LIE",
+			"hint": "its makes your gps work", 
+			"match": false
+		}
+
+
+]

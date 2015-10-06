@@ -1,0 +1,48 @@
+[
+		{
+			"guess": "",	
+			"solved": "cat",
+			"mixed": "tac",
+			"hint": "meow!", 
+			"match": false
+		},
+
+
+		{
+			"guess": "",	
+			"solved": "dog",
+			"mixed": "god",
+			"hint": "woof!", 
+			"match": false
+		},
+
+
+		{
+			"guess": "",	
+			"solved": "bear",
+			"mixed": "reab",
+			"hint": "teddy?", 
+			"match": false
+		},
+
+
+		{
+			"guess": "",	
+			"solved": "dragon",
+			"mixed": "rongad",
+			"hint": "khaleesi!", 
+			"match": false
+		},
+
+
+		{
+			"guess": "",	
+			"solved": "bird",
+			"mixed": "drib",
+			"hint": "tweet!", 
+			"match": false
+		}
+
+
+
+]

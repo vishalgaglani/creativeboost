@@ -1,0 +1,50 @@
+body {
+  
+  background-image : url("../img/jungle2.jpg");
+  background-size: cover;
+}
+
+
+
+.header { 
+
+	width: 100%;	
+	background-color: black;
+	position: relative;	
+	top: 0;
+	max-height: 125px;
+	opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}  
+
+input,
+textarea {
+  display: inline-block;
+  padding: 15px;
+  max-width: 25px;
+  outline: 0;
+  border: 0; }
+
+
+input[type=text] {
+
+	width: 25px;
+  outline: 0;
+  border: 0; 
+  max-width: 25px;
+
+}
+
+.questions {
+	background-color: black;
+	color: white;
+	min-width: 640px;	
+	
+
+
+
+
+
+}
+
+

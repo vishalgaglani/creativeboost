@@ -1,0 +1,302 @@
+/*------------------------------------*\
+    Stylesheet for the 5 minute creative boost v1
+    Vishal Gaglani-2015
+\*------------------------------------*/
+    
+/**************************************** GLOBAL STYLE ****************************************/
+
+body {
+  
+  background-image : url("../img/bg_darkjungle.jpg");
+  
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100%;
+}
+
+@font-face {
+    font-family: museoSans;
+    src: url("fonts/MuseoSans_300.ttf");
+}
+
+
+h3 {color: #CCFF99;
+	font-family: museoSans;
+	font-size: 1.5em;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*------------------------------------*\
+    $GHOST BUTTONS
+\*------------------------------------*/
+
+button {
+	background: transparent;
+	font-family: museoSans;
+	font-size: 1em;
+}
+
+
+a {color: white;}
+
+/**************************************** STATE 1 -- Intro Style ****************************************/
+	 
+
+/*------------------------------------*\
+    $LOGO STYLES
+\*------------------------------------*/
+
+.intro { 
+	background-image : url("../img/logo_new4.png");
+	background-size: contain;
+  	background-repeat: no-repeat;
+  	background-position: center center;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    
+
+	width: 100%;	
+	position: center;	
+	top: 0;
+	padding-top: 25px;
+	padding-bottom: 5%;
+	margin:auto;
+	margin-top: 10px;
+	min-height: 450px;
+	margin-bottom: 10px;
+} 
+
+/*------------------------------------*\
+    $WELCOME BOX
+\*------------------------------------*/
+
+
+.welcome {
+	padding: 25px;
+	margin: auto;
+	font-family: museoSans;
+	-webkit-font-smoothing: antialiased;
+    width: 75%;
+    
+}
+
+#welcome  {
+	font-size: 1.2em;
+	padding: 15px;
+	margin: auto;
+	margin-top: 20px;
+	font-family: museoSans;
+	-webkit-font-smoothing: antialiased;
+    width: 75%;
+     
+    
+  	border-radius: 5px;
+  	
+}
+
+#welcome p {
+	font-size: 1.3em;
+	padding: 5px;
+	margin: auto;
+	font-family: museoSans;
+	-webkit-font-smoothing: antialiased;
+
+
+}
+
+#welcome p button  {
+	margin-top: 45px;
+	width: 150px;
+	border: solid;
+	background: transparent;
+	font-weight: bold;
+}
+
+/*------------------------------------*\
+    $TIMER
+\*------------------------------------*/
+
+#timerbox p {
+
+	font-family: museoSans;
+	-webkit-font-smoothing: antialiased;
+	font-size: 1.5em;
+
+
+}
+
+/**************************************** STATE 2 -- Questions styles ****************************************/
+
+
+
+/*------------------------------------*\
+    $HEADER
+\*------------------------------------*/
+
+
+#header { 
+
+	width: 100%;	
+	background-color: black;
+	position: relative;	
+	padding-top: 20px;
+	padding-bottom: 0px;
+	max-height: 100px; !important
+	}
+
+#header img {
+	padding-top: 0px;
+	max-height: 70px;
+	vertical-align: top;
+}
+
+
+
+/*------------------------------------*\
+    $COLUMN LABELS
+\*------------------------------------*/
+
+#labels {
+	max-height: 50px;
+	width: 100%;
+	padding-left: 10px;
+	background-color: black;
+}
+
+
+
+/*------------------------------------*\
+    $INPUT BOX
+\*------------------------------------*/
+
+input[type=text] {
+  font-size: 1.2em;
+  outline: 0;
+  border: 0; 
+  max-width: 200px;
+  min-height: 1.2em;
+  max-height: 1.5em;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 25px;
+
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+input[type="text"]:disabled {
+    background: #CCFF99;
+
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+
+
+/*------------------------------------*\
+    $ANAGRAM LIST STYLES
+\*------------------------------------*/
+
+.questions_container {
+	margin-top: 15%;
+	/*background-color: black;*/
+	background: transparent;
+	color: white;
+	min-width: 640px;
+	min-height: 400px;
+	max-width: 100%;	
+	margin: auto;
+	border: solid, white;
+
+	font-family: museoSans;
+	-webkit-font-smoothing: antialiased;
+}
+
+.questions_container ul {
+	list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background: transparent;
+}
+
+.questions_container li {
+	list-style-type: none;
+    padding-top: 3px;
+    margin: 0px;
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 4px;  
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+   
+    min-height: 25px;
+    vertical-align: middle;
+
+    font-size: 1.2em;
+
+}
+
+.questions_container li:nth-child(even) { 
+	background-image : url("../img/bg_jungle_panel_black2.png"); 
+	
+	background-repeat: repeat-x;
+	min-height: 25px;
+}
+
+.questions_container li:nth-child(odd) { 
+	background-image : url("../img/bg_jungle_panel.png"); 
+	
+	background-repeat: repeat-x;
+	min-height: 25px;	
+}
+
+
+
+/*------------------------------------*\
+    $HINTS *** NOT USED FOR V1
+
+
+.hint {
+    font-size: .8em;
+}
+
+.showHint:active ~ .hint {
+  display: inline-block;
+}
+
+.showHint  {
+	background: transparent;
+	font-family: museoSans;
+	font-size: 1em;
+}
+
+.showHint:visited{
+  color: transparent;
+  width:0;
+  height: 0;
+  display:none;
+}
+\*------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
