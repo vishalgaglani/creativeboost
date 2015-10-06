@@ -1,4 +1,11 @@
-# THE 5-MINUTE CREATIVE BOOST
+# THE 5-MINUTE CREATIVE BOOST (dev v1)
+
+# For coding samples please check the following...
+1. index.html
+2. css/app.css (user styles)
+3. js/app.js (custom angular js app)
+
+
 
 ##Intro:
 
