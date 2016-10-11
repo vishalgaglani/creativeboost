@@ -1,5 +1,7 @@
 # THE 5-MINUTE CREATIVE BOOST (dev v1)
 
+![Alt text](./img/screenshot.png?raw=true "Optional Title")
+
 # For coding samples please check the following...
 1. index.html
 2. css/app.css (user styles)
